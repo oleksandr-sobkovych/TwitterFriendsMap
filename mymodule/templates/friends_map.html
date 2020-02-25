@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ec2069fab48a498f82ddb6b406c45d6e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ec2069fab48a498f82ddb6b406c45d6e" ></div>
+        
+</body>
+<script>    
+    
+            var map_ec2069fab48a498f82ddb6b406c45d6e = L.map(
+                "map_ec2069fab48a498f82ddb6b406c45d6e",
+                {
+                    center: [49.4871968, 31.2718321],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2af7a5489402437696f3a5469b5c8a87 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ec2069fab48a498f82ddb6b406c45d6e);
+        
+    
+            var feature_group_eb9553143e9447f7bc6a2ec98e2eca85 = L.featureGroup(
+                {}
+            ).addTo(map_ec2069fab48a498f82ddb6b406c45d6e);
+        
+    
+            var marker_664d9cbd83da458c824340c177428292 = L.marker(
+                [49.4871968, 31.2718321],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_4ee1cb38df3c4bf180fffd6aef25e0a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter-square", "iconColor": "red", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_664d9cbd83da458c824340c177428292.setIcon(icon_4ee1cb38df3c4bf180fffd6aef25e0a9);
+        
+    
+        var popup_b07c7a5854774446830464da4f5ff870 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cde9157d1fad481e8904204c80d5beda = $(`<div id="html_cde9157d1fad481e8904204c80d5beda" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/840485470148665344/F3Ovk7mc_normal.jpg" alt="static/id-card-solid.svg"><i>Nazariy Kuspys</i></div>`)[0];
+            popup_b07c7a5854774446830464da4f5ff870.setContent(html_cde9157d1fad481e8904204c80d5beda);
+        
+
+        marker_664d9cbd83da458c824340c177428292.bindPopup(popup_b07c7a5854774446830464da4f5ff870)
+        ;
+
+        
+    
+    
+            var marker_0e18189f79894ca4bd6dd6c880e0b744 = L.marker(
+                [49.49239115725993, 31.278629514738583],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_4b38b3b2f1574b09b663931a7245bf3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_0e18189f79894ca4bd6dd6c880e0b744.setIcon(icon_4b38b3b2f1574b09b663931a7245bf3f);
+        
+    
+        var popup_95f74289233b41bcbf543890ca9274a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c642a53c7c5e46fea49c732c6d7e0cc1 = $(`<div id="html_c642a53c7c5e46fea49c732c6d7e0cc1" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/864511441595908096/c59RHf3m_normal.jpg" alt="static/id-card-solid.svg"><i>Олена</i></div>`)[0];
+            popup_95f74289233b41bcbf543890ca9274a3.setContent(html_c642a53c7c5e46fea49c732c6d7e0cc1);
+        
+
+        marker_0e18189f79894ca4bd6dd6c880e0b744.bindPopup(popup_95f74289233b41bcbf543890ca9274a3)
+        ;
+
+        
+    
+    
+            marker_0e18189f79894ca4bd6dd6c880e0b744.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce1c08ebe8684164aa0a309e49d6d77d = L.marker(
+                [49.841952, 24.0315921],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_fc8952658de64956beecb80665569e6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_ce1c08ebe8684164aa0a309e49d6d77d.setIcon(icon_fc8952658de64956beecb80665569e6b);
+        
+    
+        var popup_581f4b91fda5461a901aef303ced2604 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb8f154ddaa448b5bb0e0cf1fea43a0b = $(`<div id="html_eb8f154ddaa448b5bb0e0cf1fea43a0b" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1054620875033587713/xZQp_kFr_normal.jpg" alt="static/id-card-solid.svg"><i>RavenbornJB</i></div>`)[0];
+            popup_581f4b91fda5461a901aef303ced2604.setContent(html_eb8f154ddaa448b5bb0e0cf1fea43a0b);
+        
+
+        marker_ce1c08ebe8684164aa0a309e49d6d77d.bindPopup(popup_581f4b91fda5461a901aef303ced2604)
+        ;
+
+        
+    
+    
+            marker_ce1c08ebe8684164aa0a309e49d6d77d.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c920426b73324c01bceecd67af2653e1 = L.marker(
+                [49.8451788109456, 24.033439993120112],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_7505851ff8a84dd3ab00c97da09d3998 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_c920426b73324c01bceecd67af2653e1.setIcon(icon_7505851ff8a84dd3ab00c97da09d3998);
+        
+    
+        var popup_8573e79513b84aae802500b1659e8e3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2fdfad6b16d4567acd248ac3cdc717e = $(`<div id="html_f2fdfad6b16d4567acd248ac3cdc717e" style="width: 100.0%; height: 100.0%;"><img src="http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="static/id-card-solid.svg"><i>BogdanVey</i></div>`)[0];
+            popup_8573e79513b84aae802500b1659e8e3d.setContent(html_f2fdfad6b16d4567acd248ac3cdc717e);
+        
+
+        marker_c920426b73324c01bceecd67af2653e1.bindPopup(popup_8573e79513b84aae802500b1659e8e3d)
+        ;
+
+        
+    
+    
+            marker_c920426b73324c01bceecd67af2653e1.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_debc226c376542098b733a03cfb2c62b = L.marker(
+                [49.845230744310896, 24.03086131886755],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_9e93138a6be442d3a900be6fda371f1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_debc226c376542098b733a03cfb2c62b.setIcon(icon_9e93138a6be442d3a900be6fda371f1d);
+        
+    
+        var popup_0afb65aeadbf4288b9a8bfe6a2389fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c034aac632ef410f8298ec02ec918132 = $(`<div id="html_c034aac632ef410f8298ec02ec918132" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1230516475703762944/fS6oisPv_normal.jpg" alt="static/id-card-solid.svg"><i>viri_aldi</i></div>`)[0];
+            popup_0afb65aeadbf4288b9a8bfe6a2389fb9.setContent(html_c034aac632ef410f8298ec02ec918132);
+        
+
+        marker_debc226c376542098b733a03cfb2c62b.bindPopup(popup_0afb65aeadbf4288b9a8bfe6a2389fb9)
+        ;
+
+        
+    
+    
+            marker_debc226c376542098b733a03cfb2c62b.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_338bedb5e7424cd693993da4f6cd546d = L.marker(
+                [49.48779472261281, 31.27466791971381],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_3542119095404c879b757d432c43866a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_338bedb5e7424cd693993da4f6cd546d.setIcon(icon_3542119095404c879b757d432c43866a);
+        
+    
+        var popup_d49cbf9f94df4198b176ea166d429dbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f150a133e29d460d955c4c0209f80f43 = $(`<div id="html_f150a133e29d460d955c4c0209f80f43" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1148848214487048192/hyYVoLf6_normal.jpg" alt="static/id-card-solid.svg"><i>Maxymilian</i></div>`)[0];
+            popup_d49cbf9f94df4198b176ea166d429dbd.setContent(html_f150a133e29d460d955c4c0209f80f43);
+        
+
+        marker_338bedb5e7424cd693993da4f6cd546d.bindPopup(popup_d49cbf9f94df4198b176ea166d429dbd)
+        ;
+
+        
+    
+    
+            marker_338bedb5e7424cd693993da4f6cd546d.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d173eb7651d4622b32f903e7d62799f = L.marker(
+                [48.8566969, 2.3514616],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_bce046aed3fb4cb1b2916815b2c6b8ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_2d173eb7651d4622b32f903e7d62799f.setIcon(icon_bce046aed3fb4cb1b2916815b2c6b8ed);
+        
+    
+        var popup_f1461a1bb2dd43c9a648b96835e2d1c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cea220b8f6104da99a762d1224ffc976 = $(`<div id="html_cea220b8f6104da99a762d1224ffc976" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1168457560485220352/-0PucgDs_normal.jpg" alt="static/id-card-solid.svg"><i>Ceb</i></div>`)[0];
+            popup_f1461a1bb2dd43c9a648b96835e2d1c0.setContent(html_cea220b8f6104da99a762d1224ffc976);
+        
+
+        marker_2d173eb7651d4622b32f903e7d62799f.bindPopup(popup_f1461a1bb2dd43c9a648b96835e2d1c0)
+        ;
+
+        
+    
+    
+            marker_2d173eb7651d4622b32f903e7d62799f.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88f6f29b1626488b9f85f237a864fd9a = L.marker(
+                [52.7954791, -0.5402402866174321],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_3ff07ed4b2d943589a7ece98d7c3fb14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_88f6f29b1626488b9f85f237a864fd9a.setIcon(icon_3ff07ed4b2d943589a7ece98d7c3fb14);
+        
+    
+        var popup_8e57058928a84b08a399c6d47054b894 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_777e3af33a704a33a501e0eadd193c93 = $(`<div id="html_777e3af33a704a33a501e0eadd193c93" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1231510690017501185/zX6TyMfO_normal.jpg" alt="static/id-card-solid.svg"><i>Adam Clowery</i></div>`)[0];
+            popup_8e57058928a84b08a399c6d47054b894.setContent(html_777e3af33a704a33a501e0eadd193c93);
+        
+
+        marker_88f6f29b1626488b9f85f237a864fd9a.bindPopup(popup_8e57058928a84b08a399c6d47054b894)
+        ;
+
+        
+    
+    
+            marker_88f6f29b1626488b9f85f237a864fd9a.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95ba1281332a4e04ad9d357ca9280521 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_bbdc69bdd80a4b9e9ed63802e3931417 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_95ba1281332a4e04ad9d357ca9280521.setIcon(icon_bbdc69bdd80a4b9e9ed63802e3931417);
+        
+    
+        var popup_3fdfdb85ac8d4987aba47616e04613ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b504ece624b4e20b24a581b5fe89261 = $(`<div id="html_7b504ece624b4e20b24a581b5fe89261" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1090361876859506690/e6WxhHMs_normal.jpg" alt="static/id-card-solid.svg"><i>MLG</i></div>`)[0];
+            popup_3fdfdb85ac8d4987aba47616e04613ab.setContent(html_7b504ece624b4e20b24a581b5fe89261);
+        
+
+        marker_95ba1281332a4e04ad9d357ca9280521.bindPopup(popup_3fdfdb85ac8d4987aba47616e04613ab)
+        ;
+
+        
+    
+    
+            marker_95ba1281332a4e04ad9d357ca9280521.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72762fc2952e453181d78bc51f882369 = L.marker(
+                [42.90743255, -2.0645920949936576],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_1d2437daa609491aa457729540293591 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_72762fc2952e453181d78bc51f882369.setIcon(icon_1d2437daa609491aa457729540293591);
+        
+    
+        var popup_86eb22d2651346f596e9f200058541d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c856017f2edf40898ecbd616ee6396a2 = $(`<div id="html_c856017f2edf40898ecbd616ee6396a2" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1006114388397391874/5mcVx5ku_normal.jpg" alt="static/id-card-solid.svg"><i>Clash of Clans</i></div>`)[0];
+            popup_86eb22d2651346f596e9f200058541d9.setContent(html_c856017f2edf40898ecbd616ee6396a2);
+        
+
+        marker_72762fc2952e453181d78bc51f882369.bindPopup(popup_86eb22d2651346f596e9f200058541d9)
+        ;
+
+        
+    
+    
+            marker_72762fc2952e453181d78bc51f882369.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad67fb59dbb445acb4f7c4a5454030c7 = L.marker(
+                [36.7014631, -118.7559974],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_d507a65562d44db088d6734cbd8c4c36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_ad67fb59dbb445acb4f7c4a5454030c7.setIcon(icon_d507a65562d44db088d6734cbd8c4c36);
+        
+    
+        var popup_3b0516ad935b4a308058a8e504a508f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c3e95735a1c44eda63d9ade9e06baeb = $(`<div id="html_3c3e95735a1c44eda63d9ade9e06baeb" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1224601128601411585/QTDw7A0a_normal.jpg" alt="static/id-card-solid.svg"><i>PlayStation</i></div>`)[0];
+            popup_3b0516ad935b4a308058a8e504a508f3.setContent(html_3c3e95735a1c44eda63d9ade9e06baeb);
+        
+
+        marker_ad67fb59dbb445acb4f7c4a5454030c7.bindPopup(popup_3b0516ad935b4a308058a8e504a508f3)
+        ;
+
+        
+    
+    
+            marker_ad67fb59dbb445acb4f7c4a5454030c7.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_309637fb5138428fa537fcbc1c9f3a3d = L.marker(
+                [53.5120412, -2.2434612],
+                {}
+            ).addTo(feature_group_eb9553143e9447f7bc6a2ec98e2eca85);
+        
+    
+            var icon_a8987f83f2c74ff0bfe55c605d1a7912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_309637fb5138428fa537fcbc1c9f3a3d.setIcon(icon_a8987f83f2c74ff0bfe55c605d1a7912);
+        
+    
+        var popup_97740217e31c4c13863d1eab910a483f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3134f24fda204b4ca9767d68fb9f3dd0 = $(`<div id="html_3134f24fda204b4ca9767d68fb9f3dd0" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1190227272583778310/UgwFLJR9_normal.jpg" alt="static/id-card-solid.svg"><i>Ubisoft</i></div>`)[0];
+            popup_97740217e31c4c13863d1eab910a483f.setContent(html_3134f24fda204b4ca9767d68fb9f3dd0);
+        
+
+        marker_309637fb5138428fa537fcbc1c9f3a3d.bindPopup(popup_97740217e31c4c13863d1eab910a483f)
+        ;
+
+        
+    
+    
+            marker_309637fb5138428fa537fcbc1c9f3a3d.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
